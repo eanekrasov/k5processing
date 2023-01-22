@@ -1,0 +1,94 @@
+[versions]
+
+lwjgl = "3.3.1"
+joml = "1.10.5"
+
+[libraries]
+
+joml = { module = "org.joml:joml", version.ref = "joml" }
+
+lwjgl-bom = { module = "org.lwjgl:lwjgl-bom", version.ref = "lwjgl" }
+
+lwjgl = "org.lwjgl:lwjgl"
+lwjgl-assimp = "org.lwjgl:lwjgl-assimp"
+lwjgl-bgfx = "org.lwjgl:lwjgl-bgfx"
+lwjgl-cuda = "org.lwjgl:lwjgl-cuda"
+lwjgl-egl = "org.lwjgl:lwjgl-egl"
+lwjgl-glfw = "org.lwjgl:lwjgl-glfw"
+lwjgl-jawt = "org.lwjgl:lwjgl-jawt"
+lwjgl-jemalloc = "org.lwjgl:lwjgl-jemalloc"
+lwjgl-libdivide = "org.lwjgl:lwjgl-libdivide"
+lwjgl-llvm = "org.lwjgl:lwjgl-llvm"
+lwjgl-lmdb = "org.lwjgl:lwjgl-lmdb"
+lwjgl-lz4 = "org.lwjgl:lwjgl-lz4"
+lwjgl-meow = "org.lwjgl:lwjgl-meow"
+lwjgl-meshoptimizer = "org.lwjgl:lwjgl-meshoptimizer"
+lwjgl-nanovg = "org.lwjgl:lwjgl-nanovg"
+lwjgl-nfd = "org.lwjgl:lwjgl-nfd"
+lwjgl-nuklear = "org.lwjgl:lwjgl-nuklear"
+lwjgl-odbc = "org.lwjgl:lwjgl-odbc"
+lwjgl-openal = "org.lwjgl:lwjgl-openal"
+lwjgl-opencl = "org.lwjgl:lwjgl-opencl"
+lwjgl-opengl = "org.lwjgl:lwjgl-opengl"
+lwjgl-opengles = "org.lwjgl:lwjgl-opengles"
+lwjgl-openvr = "org.lwjgl:lwjgl-openvr"
+lwjgl-opus = "org.lwjgl:lwjgl-opus"
+lwjgl-par = "org.lwjgl:lwjgl-par"
+lwjgl-remotery = "org.lwjgl:lwjgl-remotery"
+lwjgl-rpmalloc = "org.lwjgl:lwjgl-rpmalloc"
+lwjgl-shaderc = "org.lwjgl:lwjgl-shaderc"
+lwjgl-spvc = "org.lwjgl:lwjgl-spvc"
+lwjgl-sse = "org.lwjgl:lwjgl-sse"
+lwjgl-stb = "org.lwjgl:lwjgl-stb"
+lwjgl-tinyexr = "org.lwjgl:lwjgl-tinyexr"
+lwjgl-tinyfd = "org.lwjgl:lwjgl-tinyfd"
+lwjgl-tootle = "org.lwjgl:lwjgl-tootle"
+lwjgl-vma = "org.lwjgl:lwjgl-vma"
+lwjgl-vulkan = "org.lwjgl:lwjgl-vulkan"
+lwjgl-xxhash = "org.lwjgl:lwjgl-xxhash"
+lwjgl-yoga = "org.lwjgl:lwjgl-yoga"
+lwjgl-zstd = "org.lwjgl:lwjgl-zstd"
+
+[bundles]
+
+everything = [
+    "lwjgl",
+    "lwjgl-assimp",
+    "lwjgl-bgfx",
+    "lwjgl-cuda",
+    "lwjgl-egl",
+    "lwjgl-glfw",
+    "lwjgl-jawt",
+    "lwjgl-jemalloc",
+    "lwjgl-libdivide",
+    "lwjgl-llvm",
+    "lwjgl-lmdb",
+    "lwjgl-lz4",
+    "lwjgl-meow",
+    "lwjgl-meshoptimizer",
+    "lwjgl-nanovg",
+    "lwjgl-nfd",
+    "lwjgl-nuklear",
+    "lwjgl-odbc",
+    "lwjgl-openal",
+    "lwjgl-opencl",
+    "lwjgl-opengl",
+    "lwjgl-opengles",
+    "lwjgl-openvr",
+    "lwjgl-opus",
+    "lwjgl-par",
+    "lwjgl-remotery",
+    "lwjgl-rpmalloc",
+    "lwjgl-shaderc",
+    "lwjgl-spvc",
+    "lwjgl-sse",
+    "lwjgl-stb",
+    "lwjgl-tinyexr",
+    "lwjgl-tinyfd",
+    "lwjgl-tootle",
+    "lwjgl-vma",
+    "lwjgl-vulkan",
+    "lwjgl-xxhash",
+    "lwjgl-yoga",
+    "lwjgl-zstd"
+]
