@@ -1,6 +1,5 @@
 plugins {
-    application
-    kotlin("jvm")
+    id("build.jvm")
 }
 
 application {
